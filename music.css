@@ -4,6 +4,12 @@
 	margin: 10px 15px;
 }
 
+#hye{
+	font-size: 40px;
+	color:white;
+	margin: 10px 15px;
+}
+
 #main{
 	height:1200px;
 	width:400px;
@@ -38,8 +44,4 @@
 body{
 	background-color: black;
 	color: white;
-}
-
-.hide{
-	display: none;
 }

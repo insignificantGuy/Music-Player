@@ -33,6 +33,8 @@
 			function frame(){
 				if(width>=100){
 					clearInterval(id);
+					z.style.width=0+"%";
+					document.getElementById("hy").classList.toggle("fa-play");
 				}
 				else{
 					width++;
@@ -72,6 +74,7 @@
 		clearInterval(ide)
 		ide=setInterval(timer,1000);
 		function timer(){
+			if(timer!=time){
 			if(sec1==5&&sec2==9){
 				sec1=0;
 				sec2=0;
@@ -89,11 +92,20 @@
 			timer=""+min+"."+sec1+""+sec2;
 			st.innerHTML=timer;
 		}
+			else{
+		clearInterval(ide)
+		min=0
+		sec1=0;
+		sec2=0;
+		timer=""+min+"."+sec1+""+sec2;
+		st.innerHTML=timer;
+	}
+}
 }
 
     //function pause
 	function pause(){
 		clearInterval(id);
-		clearInterval(ide);
+		clearInterval(ide)
 		console.log("pause invoked")
 	}
