@@ -1,0 +1,671 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"sec",
+				"sec"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"d",
+				"document"
+			],
+			[
+				"margin",
+				"margin\tproperty"
+			],
+			[
+				"margin-",
+				"margin-left\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"s",
+				"show"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"number",
+				"number2"
+			],
+			[
+				"num",
+				"number1"
+			],
+			[
+				"numb",
+				"number1"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"background",
+				"background-image\tproperty"
+			],
+			[
+				"bor",
+				"border-width\tproperty"
+			],
+			[
+				"align",
+				"align-content\tproperty"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"padding-",
+				"padding-bottom\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"text",
+				"text-rendering\tproperty"
+			],
+			[
+				"te",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"backgroun",
+				"background\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"padi",
+				"padding\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"padding",
+				"padding\tproperty"
+			],
+			[
+				"input",
+				"input-group"
+			],
+			[
+				"inp",
+				"input-group"
+			],
+			[
+				"algin",
+				"text-align\tproperty"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"getEle",
+				"getElementsByClassName"
+			],
+			[
+				"secondary",
+				"Secondary"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"pe",
+				"pet"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"bak",
+				"background-color\tproperty"
+			],
+			[
+				"padin",
+				"padding-right\tproperty"
+			],
+			[
+				"spa",
+				"white-space\tproperty"
+			],
+			[
+				"fotn",
+				"font-size\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"backgr",
+				"background-repeat\tproperty"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"trans",
+				"transform\tproperty"
+			],
+			[
+				"transform",
+				"transform-origin\tproperty"
+			],
+			[
+				"tra",
+				"translate()\ttransform"
+			],
+			[
+				"overfow",
+				"overflow\tproperty"
+			],
+			[
+				"bo",
+				"box-sizing\tproperty"
+			],
+			[
+				"ds",
+				"display\tproperty"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"ro",
+				"rotateY()\ttransform"
+			],
+			[
+				"box-s",
+				"box-sizing\tproperty"
+			],
+			[
+				"trna",
+				"transform\tproperty"
+			],
+			[
+				"tran",
+				"transform\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"paddin",
+				"padding\tproperty"
+			],
+			[
+				"grid-te",
+				"grid-template-rows\tproperty"
+			],
+			[
+				"person",
+				"person2"
+			],
+			[
+				"posi",
+				"posi"
+			],
+			[
+				"r",
+				"R"
+			],
+			[
+				"fir",
+				"firstName"
+			],
+			[
+				"las",
+				"lastName"
+			],
+			[
+				"fi",
+				"firstName"
+			],
+			[
+				"list",
+				"list-title"
+			],
+			[
+				"conten",
+				"content-text"
+			],
+			[
+				"col-",
+				"col-sm-12"
+			],
+			[
+				"col",
+				"col-sm-12"
+			],
+			[
+				"backgro",
+				"background-color\tproperty"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"dropdown",
+				"dropdown-item"
+			],
+			[
+				"navbar-",
+				"navbar-nav"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"user",
+				"USERNAME"
+			],
+			[
+				"btn",
+				"btn-lg"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"li",
+				"lightgray"
+			],
+			[
+				"min",
+				"minlength\tAttr"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"w3",
+				"w3-green"
+			],
+			[
+				"icon-",
+				"icon-paper-clip"
+			],
+			[
+				"h",
+				"hspace\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/A/sublime text/projects/music player/music.js",
+		"/A/sublime text/projects/music player/music.css",
+		"/A/sublime text/projects/music player/index.html",
+		"/A/VS/workspace/resume1.css",
+		"/C/Users/zakra/OneDrive/Desktop/workshop",
+		"/A/VS/workspace/portfolio/startbootstrap-resume/js/resume.js",
+		"/A/web page/new project/slider/slider.html",
+		"/A/xamp/files/htdocs/projects/calculator.php",
+		"/A/xamp/files/htdocs/projects/to-do.php",
+		"/A/xamp/files/htdocs/projects/first.php",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/fonts/simple-line-icons.css",
+		"/A/VS/workspace/bootstrap-4.3.1-dist/css/bootstrap.css",
+		"/A/web page/login_2/login.css",
+		"/A/web page/login_2/Login.html",
+		"/A/web page/js/main.css",
+		"/A/web page/js/main.js",
+		"/A/web page/js/main.html",
+		"/A/web page/Login/index.html",
+		"/A/web page/Login/style.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/index.html",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/responsive.css",
+		"/C/Users/zakra/OneDrive/Desktop/FileHandler.ashx",
+		"/C/Users/zakra/Downloads/download",
+		"/A/VS/workspace/bootstrap.css",
+		"/A/VS/workspace/facebook/facebook_main.html",
+		"/A/web page/new project/icons.html",
+		"/A/web page/new project/pic.html",
+		"/A/web page/shopping/styles.css",
+		"/A/web page/shopping/main.html",
+		"/A/web page/new project/slider.html",
+		"/A/web page/new project/Portfolio/bootstrap.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/main.css",
+		"/A/web page/new project/Portfolio/potfolio.css",
+		"/A/web page/new project/Portfolio/portfolio.html",
+		"/A/web page/portfolio_showed/index.html",
+		"/A/web page/new project/slider.css",
+		"/A/web page/new project/grid.html",
+		"/A/web page/new project/flip.css",
+		"/A/web page/new project/flip.html",
+		"/A/web page/new project/scroll.css",
+		"/A/web page/new project/scroll.html",
+		"/A/web page/new project/cursor/cursor.css",
+		"/A/web page/new project/cursor/cursor.html",
+		"/A/web page/new project/icons.css",
+		"/A/web page/new project/retry.css",
+		"/A/web page/new project/retry.html",
+		"/A/web page/new project/Portfolio/min.css",
+		"/A/web page/new project/navbar.html",
+		"/A/web page/new project/milk.css",
+		"/A/web page/new project/milk.html",
+		"/A/web page/new project/cursor.css",
+		"/A/web page/new project/cursor.html",
+		"/A/web page/from_web/CustomDropDownListStyling/index.html",
+		"/A/web page/new project/main.html",
+		"/A/web page/new project/start.css",
+		"/A/web page/my_final/index.html",
+		"/A/web page/lic/lic.css",
+		"/A/web page/lic/lic.html",
+		"/R/ppsspp/1232 - Ben 10 - Protector of Earth (USA) (v1.01).iso",
+		"/A/web page/final try particle/particles.js-master/particles.js-master/particles.js",
+		"/A/web page/my_final/boot.css",
+		"/A/web page/my_final/sheet.css",
+		"/A/web page/new project/bootstrap-4.2.1-dist/css/bootstrap.css",
+		"/A/web page/new project/startup.html",
+		"/A/web page/new project/gallery.css",
+		"/A/web page/new project/bootstrap.html",
+		"/A/web page/new project/pic",
+		"/C/Users/zakra/OneDrive/Documents/my imp documnets/FileHandler.ashx",
+		"/A/web page/new project/diary.html",
+		"/A/web page/new project/ps.css",
+		"/C/Users/zakra/OneDrive/Desktop/phone/Xiaomi_Mi_4_V8.1.4.0.MXDMIDI_20161201_6.0_Global/Firmware/flash_all_except_data_storage.bat",
+		"/C/Users/zakra/OneDrive/Desktop/phone/Xiaomi_Mi_4_V8.1.4.0.MXDMIDI_20161201_6.0_Global/Firmware/flash_all.bat",
+		"/C/Users/zakra/OneDrive/Desktop/phone/Xiaomi_Mi_4_V8.1.4.0.MXDMIDI_20161201_6.0_Global/Xiaomi_Mi_4_V8.1.4.0.MXDMIDI_20161201_6.0_Global/Firmware/flash_all.bat",
+		"/C/Users/zakra/OneDrive/Desktop/phone/Xiaomi_Mi_4_V8.1.4.0.MXDMIDI_20161201_6.0_Global/Firmware/flash_all.sh",
+		"/A/web page/new project/boot.css",
+		"/A/web page/new project/sideline_font.html",
+		"/A/web page/new project/d.css",
+		"/A/web page/new project/csssheet.css",
+		"/A/web page/new project/sf.css",
+		"/C/Users/zakra/OneDrive/Desktop/test1.html",
+		"/A/web page/shopping/assets/fonts/simple-line-icons.css",
+		"/A/web page/shopping/assets/fonts/font-awesome.min.css",
+		"/A/web page/shopping/assets/css/slicknav.css",
+		"/A/web page/shopping/assets/css/responsive.css",
+		"/A/web page/shopping/assets/css/nivo-lightbox.css",
+		"/A/web page/shopping/assets/css/main.css",
+		"/A/web page/shopping/assets/css/bootstrap.min.css",
+		"/A/web page/shopping/assets/css/animate.css",
+		"/A/web page/shopping/assets/css/about.css",
+		"/C/Users/zakra/OneDrive/Desktop/shopping/main.html",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/fonts/font-awesome.min.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/nivo-lightbox.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/animate.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/about.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/slicknav.css",
+		"/A/web page/portfolio/WebD-Workshop-master/WebD-Workshop-master/assets/css/bootstrap.min.css",
+		"/C/Users/zakra/OneDrive/Desktop/final try particle/particles.js-master/particles.js-master/particles.js",
+		"/C/Users/zakra/OneDrive/Desktop/final try particle/particles.js-master/particles.js-master/demo/particles.json",
+		"/C/Users/zakra/OneDrive/Desktop/final try particle/file.html",
+		"/C/Users/zakra/OneDrive/Desktop/final try particle/app.js",
+		"/C/Users/zakra/OneDrive/Desktop/final try particle/assets/particle.json",
+		"/C/Users/zakra/Downloads/bootstap/bootstrap-4.0.0-alpha.6-dist/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css",
+		"/C/Users/zakra/OneDrive/Desktop/shopping/styles.css",
+		"/A/web page/first webpage/hi3.html",
+		"/A/web page/first webpage/style.css",
+		"/C/Users/zakra/OneDrive/Desktop/New folder/hi2.html",
+		"/C/Users/zakra/OneDrive/Desktop/hi.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "music.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
