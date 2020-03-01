@@ -6,17 +6,15 @@
 	    if (v % 2 == 0) {
 	        i.play();
 	        move();
+	        document.getElementById("hy").classList.toggle("fa-pause");
 	        start_time();
 	    } else {
 	        i.pause();
 	        pause();
+	        document.getElementById("hy").classList.toggle("fa-play");
+
 	    }
 	    v++;
-	}
-
-	//change sign
-	function myFunction(x) {
-	    x.classList.toggle("fa-pause");
 	}
 
 	//Frame Function
@@ -39,7 +37,10 @@
 	        if (width >= 100) {
 	            clearInterval(id);
 	            z.style.width = 0 + "%";
-	            document.getElementById("hy").classList.toggle("fa-play");
+	            document.getElementById("hy").classList.toggle("fa-pause");
+	            v++;
+	            width=0;
+
 	        } else {
 	            width++;
 	            z.style.width = width + "%";
@@ -55,7 +56,7 @@
 	var ide;
 	var quo = Math.floor(o / 60);
 	var rem = Math.floor(o % 60);
-	var time = "" + quo + "." + rem;
+	var time = "" + quo + "."+rem;
 	var min = 0;
 	var sec1 = 0;
 	var sec2 = 0;
@@ -64,7 +65,7 @@
 	st.innerHTML = timer;
 
 	function start_time() {
-	    clearInterval(ide)
+	    clearInterval(ide);
 	    ide = setInterval(timer, 1000);
 
 	    function timer() {
@@ -99,4 +100,19 @@
 	    clearInterval(id);
 	    clearInterval(ide);
 	    console.log("pause invoked")
+	}
+
+	//reload function
+	function reloade(){
+		min = 0;
+		sec1 = 0;
+		sec2 = 0;
+		width=0;
+		document.getElementById("starte").innerHTML=""+min+"."+sec1+""+sec2;
+		document.getElementById("progress").style.width=width+"%";
+		document.getElementById("start").currentTime=0;
+		clearInterval(id);
+		clearInterval(ide);
+		start_time();
+		move();
 	}
