@@ -1,18 +1,18 @@
 <Html>
 
 <head>
-    <title>Music Player</title>
+    <title>Music Player-Html</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="music.css">
+    <link rel="stylesheet" type="text/css" href="./stuff/music.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/
 4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-	<div style="display: flex;">
+<body onload="write()">
+    <div style="display: flex;">
     <div id="musicPlayer">
         <div>
-            <img src="image/music.png" style="width: 400px;">
+            <img src="./image/music.png" style="width: 400px;">
         </div>
         <div id="bar">
             <div id="progress"></div>
@@ -31,9 +31,9 @@
             </div>
             <div class="icon">
                 <audio id="start">
-                    <source src="audio/star.mp3" type="audio/mp3">
+                    <source src="./audio/star.mp3" type="audio/mp3">
                 </audio>
-                <i class="fa fa-play" id="hy" onclick="play() ; start_time()"></i>
+                <i class="fa fa-play" id="hy" onclick="play() ;"></i>
             </div>
             <div class="icon">
                 <i class="fa fa-angle-double-right" id="hye"></i>
@@ -41,27 +41,27 @@
         </div>
     </div>
     <div>
-    	<div id="styleprofile">
-    		<div id="top">
-    			<table style="width: 100%;height: 100%;">
-    				<tr>
-    					<td>S.No</td>
-    					<td>Name</td>
-    					<td>Duration</td>
-    					<td>Action</td>
-    				</tr>
-    			</table>
-    		</div>
-    		<div id="bottom">
-    			
-    		</div>
-    	</div>
-    	<form>
-    		<button type="submit" id="add">Add</button>
-    	</form>
+        <div id="styleprofile">
+            <div id="top">
+                <table style="width: 100%;height: 100%;">
+                    <tr>
+                        <td>S.No</td>
+                        <td>Name</td>
+                        <td>Duration</td>
+                        <td>Action</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="bottom">
+            </div>
+        </div>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" name="musicFile">
+            <button type="submit" id="add" value="Add">Add song</button>
+        </form>
     </div>
     </div>
-    <script type="text/javascript" src="music.js"></script>
+    <script type="text/javascript" src="./stuff/music.js"></script>
 </body>
 
 </Html>
