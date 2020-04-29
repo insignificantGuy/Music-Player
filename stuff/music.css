@@ -26,11 +26,13 @@
 
 tr{
 	text-align: center;
+	height: 20%;
+	width: 100%;
 }
 
 td{
 	color: black;
-	width: 25%;
+	width: 33%;
 }
 
 #add{

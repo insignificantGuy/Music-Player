@@ -1,9 +1,12 @@
 	//check sign
-	var v = 0,io;
+	var v = 0;
+	var io;
+    var o;
 	var i = document.getElementById("start");
-	io=i;
+	io = i;
+
 	function play() {
-	console.log(io);
+	    //console.log(io);
 	    if (v % 2 == 0) {
 	        io.play();
 	        move();
@@ -18,16 +21,13 @@
 	    v++;
 	}
 
+	var width=0;
+	var g=0;
+	var id;
+	var t = document.getElementById("bar");
+	var z = document.getElementById("progress");
 	//Frame Function
-		var o = io.duration;
-		var width = 0;
-		var g = 0;
-		var id;
-		var t = document.getElementById("bar");
-		var n = t.style.width;
-		var z = document.getElementById("progress");
 	function move() {
-	    console.log("move invoked");
 	    clearInterval(id);
 	    id = setInterval(frame, 10 * o);
 
@@ -37,7 +37,7 @@
 	            z.style.width = 0 + "%";
 	            document.getElementById("hy").classList.toggle("fa-pause");
 	            v++;
-	            width=0;
+	            width = 0;
 
 	        } else {
 	            width++;
@@ -49,6 +49,7 @@
 
 
 	//function time
+	o=io.duration;
 	var st = document.getElementById("starte")
 	var et = document.getElementById("end");
 	var ide;
@@ -56,12 +57,13 @@
 	var min = 0;
 	var sec1 = 0;
 	var sec2 = 0;
-	var quo = Math.floor(o / 60);
-	var rem = Math.floor(o % 60);
-	var time = "" + quo + "."+rem;
-	et.innerHTML = time;
 	var timer = "" + min + "." + sec1 + "" + sec2;
 	st.innerHTML = timer;
+	var n = t.style.width;
+	var quo = Math.floor(o / 60);
+	var rem = Math.floor(o % 60);
+	var time = "" + quo + "." + rem;
+	et.innerHTML = time;
 
 	function start_time() {
 	    clearInterval(ide);
@@ -96,42 +98,59 @@
 
 	//function pause
 	function pauseBar() {
-		clearInterval(ide);
+	    clearInterval(ide);
 	}
 
-	function pauseTimer(){
+	function pauseTimer() {
 	    clearInterval(id);
-	    console.log("pause invoked")
+	    // console.log("pause invoked")
 	}
 
 	//reload function
-	function reloade(){
-		min = 0;
-		sec1 = 0;
-		sec2 = 0;
-		width=0;
-		document.getElementById("starte").innerHTML=""+min+"."+sec1+""+sec2;
-		document.getElementById("progress").style.width=width+"%";
-		document.getElementById("start").currentTime=0;
-		clearInterval(id);
-		clearInterval(ide);
-		start_time();
-		move();
+	function reloade() {
+	    min = 0;
+	    sec1 = 0;
+	    sec2 = 0;
+	    width = 0;
+	    document.getElementById("starte").innerHTML = "" + min + "." + sec1 + "" + sec2;
+	    document.getElementById("progress").style.width = width + "%";
+	    io.currentTime = 0;
+	    clearInterval(id);
+	    clearInterval(ide);
+	    start_time();
+	    move();
 	}
 
 	//write function
-	function write(){
-	var eta = document.getElementById("end");
-	var quot = Math.floor(o / 60);
-	var rema = Math.floor(o % 60);
-	var times = "" + quot + "."+rema;
-	et.innerHTML = times;
+	function write() {	
+	console.log(o);
+	var n = t.style.width;
+	var quo = Math.floor(o / 60);
+	var rem = Math.floor(o % 60);
+	var time = "" + quo + "." + rem;
+	et.innerHTML = time;
 	}
 
-	function dataWrite(){
-	var aa=document.getElementById('startSide')
-	console.log(i)
-	io=aa;
-	console.log(i);
-	play();
-}
+	function dataWrite() {
+		if(v%2!=0){
+			io.pause();
+			document.getElementById("hy").classList.toggle("fa-pause");
+			v++;
+		}
+	    var aa = document.getElementById('startSide')
+	   	io = aa;
+	   	o=io.duration;
+	   	reloade();
+	    write();
+	    // console.log(i)
+	    console.log(io);
+	    play();
+	}
+
+	    window.onload = function() {
+        if (!window.location.hash) {
+            window.location = window.location + '#loaded';
+            window.location.reload();
+            write();
+        }
+    }
