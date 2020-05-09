@@ -86,7 +86,6 @@ app.post('/', url, (req, res) => {
                     })
                 }
                 else{
-                	res.render('login',{message:'User Already exist. Kindly enter new details'})
                 }
             }
         })
@@ -98,7 +97,12 @@ app.post('/', url, (req, res) => {
                 console.log("It's an error fetching data")
                 res.render('login', { message: "An unexpected error occured" })
             }
+            console.log(docs)
+            if(_.isEmpty(docs)){
+           	res.render('login',{message:'Incorrect Email or Password'})
+           }else{
             res.redirect('/' +docs[0]._id)
+        }
         });
     }
 });
@@ -127,7 +131,7 @@ app.post('/:doc', singleUploads, (req, res) => {
             }
         });
     }
-    res.redirect('/:'+req.params.doc)
+    res.redirect('/'+req.params.doc)
 })
 
 app.listen(3000);
