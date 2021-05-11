@@ -9,7 +9,7 @@
     "express": "^4.17.1",
     "init": "^0.1.2",
     "loadash": "^1.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "mongodb": "^3.5.6",
     "mongoose": "^5.9.10",
     "mp3-duration": "^1.1.0",
